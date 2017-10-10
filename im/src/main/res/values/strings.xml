@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Im</string>
+    <string name="im_title_conversation_list">会话列表</string>
+    <string name="im_title_sys_notify">消息通知</string>
+</resources>

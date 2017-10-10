@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="112dp">
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="描述文字"
+        android:textSize="@dimen/ui_weight_2_size"
+        app:layout_constraintTop_toTopOf="@+id/iv_avatar"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toRightOf="@+id/iv_avatar"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.481" />
+    <Button
+        android:id="@+id/btn_agree"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:text="同意"
+        android:textSize="@dimen/ui_weight_0_size"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_avatar"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintRight_toLeftOf="@+id/btn_refuse"
+        android:layout_marginRight="8dp" />
+
+    <Button
+        android:id="@+id/btn_refuse"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:text="拒绝"
+        android:textSize="@dimen/ui_weight_0_size"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_avatar"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已同意"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_avatar"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E60C24</color>
+    <color name="colorPrimaryDark">#E60C24</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--actionbar 颜色-->
+    <color name="colorActionbar">#317EDB</color>
+    <!--整体背景色-->
+    <color name="colorBackGround">#F5F6F6</color>
+    <!--透明-->
+    <color name="colorDiaphaneity">#00000000</color>
+    <!--白色-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhite_1">#F4F4F4</color>
+    <!--黑色-->
+    <color name="colorBlack">#000</color>
+    <color name="colorBlack_1">#111111</color>
+    <color name="colorBlack_2">#222222</color>
+    <color name="colorBlack_3">#333333</color>
+    <color name="colorBlack_4">#4D4D4D</color>
+    <color name="colorBlack_5">#666666</color>
+    <color name="colorBlack_6">#83000000</color>
+    <color name="colorBlack_7">#1A1A1A</color>
+    <color name="colorBlack_8">#454545</color>
+    <color name="colorBlack_9">#676767</color>
+
+    <!--灰色-->
+    <color name="colorGray_1">#E5E5E5</color>
+    <color name="colorGray_2">#999999</color>
+    <color name="colorGray_3">#E3E3E3</color>
+    <color name="colorGray_4">#EDEDED</color>
+    <color name="colorGray_5">#F5F5F5</color>
+    <color name="colorGray_6">#D1D1D1</color>
+    <color name="colorGray_7">#CCCCCC</color>
+    <color name="colorGray_8">#EEEEEE</color>
+    <color name="colorGray_9">#666666</color>
+    <color name="colorGray_10">#4D4D4D</color>
+    <color name="colorGray_11">#D2D2D2</color>
+    <color name="colorGray_12">#FAFAFA</color>
+    <color name="colorGray_13">#F2F2F2</color>
+    <color name="colorGray_14">#FCFCFC</color>
+    <color name="colorGray_15">#E6E6E6</color>
+    <color name="colorGray_16">#A0A0A0</color>
+    <color name="colorGray_17">#E1E1E1</color>
+    <color name="colorGray_18">#C5C5C5</color>
+    <color name="colorGray_19">#F2F4F3</color>
+    <color name="colorGray_20">#F5F6F6</color>
+    <color name="colorGray_21">#808080</color>
+    <!--黄色-->
+    <color name="colorYellow">#FFD705</color>
+    <color name="colorYellow_1">#FAE4B2</color>
+    <color name="colorYellow_2">#EBCD99</color>
+    <color name="colorYellow_3">#FED468</color>
+    <color name="colorYellow_4">#FF8000</color>
+    <!--蓝色-->
+    <color name="colorBlue_1">#317ED8</color>
+    <color name="colorBlue_2">#317EFF</color>
+    <color name="colorBlue_3">#ff146fdf</color>
+    <!--hint 文字 颜色-->
+    <color name="texthint" >#CCCCCC</color>
+
+
+    <!--橘色-->
+    <color name="orange_1" >#D75942</color>
+    <color name="orange_2" >#FFFFCC</color>
+    <!--红色-->
+    <color name="red_1">#E60C24</color>
+    <color name="red_2">#F23030</color>
+    <color name="red_3">#f23e9a</color>
+    <color name="red_4">#F04F47</color>
+    <color name="red_5">#D70C18</color>
+
+    <!--绿色-->
+    <color name="colorGreen_1">#008B74</color>
+    <!---->
+</resources>

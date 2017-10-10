@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="myTheme" parent="AppTheme"></style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:screenOrientation">portrait</item>
+        <!-- 允许使用transitions -->
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppThemeFullScreen" parent="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:background">@mipmap/welcome</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="ToolbarMenuTextSize" parent="@style/TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">@dimen/ui_weight_3_size</item>
+    </style>
+
+    <style name="toolBar3" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="actionMenuTextAppearance">@style/ToolbarMenuTextSize</item>
+
+    </style>
+</resources>
